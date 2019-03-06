@@ -1,0 +1,20 @@
+.banner {
+ height: 100vh;
+ 
+ /* Flexbox */
+ display: flex;
+ align-items: center;
+}
+
+#main{
+ color: red;
+}
+
+#my-nav-bar{
+ font-size: 20px;
+ font-family:;
+1}
+
+.navbar-custom {
+    
+}
