@@ -1,6 +1,3 @@
-body{
-   
-}
 
 .banner {
  height: 100vh;
@@ -19,13 +16,6 @@ body{
  
 }
 
-.navbar-custom {
-    
-}
-
-#search{
- 
-}
 
 #call-to-action{
   position:absolute;
@@ -77,12 +67,13 @@ p{
 {display: none !important;}
   }
 div.front{
-    font-size: 10px;
-    margin: 0px;
+   padding:5px;
+    margin: 30px;
 }
 
 div h2{
-    font-size: 12px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -90,3 +81,54 @@ div h2{
     font-size: 10px !important; 
 }
 
+div h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+      text-align: center;
+}
+
+.link{
+    text-align: center;
+}
+
+.front{
+   margin: 40px;
+    top:50%;
+    left:50%;
+    text-align:center;
+    background-color:rgba(255, 226, 122, 0.3);
+   padding: 10px;
+    border-radius: 20px;
+    border:10px;
+  background-position: center;
+  padding: 5px;
+
+}
+
+@media only screen and (max-width: 575px) {
+  .front {
+      font-size: 10px;
+      margin:-5px;
+     }
+}
+
+@media only screen and (max-width: 575px) {
+  .front h2 {
+      font-size: 17px;
+      
+     }
+}
+
+@media only screen and (max-width: 575px) {
+  .front h3 {
+      font-size: 17px;
+      
+     }
+}
+
+@media only screen and (max-width: 575px) {
+  .demo h3 {
+      font-size: 17px;
+      
+     }
+}

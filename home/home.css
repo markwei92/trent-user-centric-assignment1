@@ -47,6 +47,7 @@ body{
 
 h2{
     text-align: center;
+    padding-bottom: 5px;
 }
 
 p{
@@ -61,31 +62,62 @@ p{
     left:50%;
     text-align:center;
     background-color:rgba(255, 226, 122, 0.3);
-   padding: 15px;
-    border-radius: 25px;
-    border-size:10px;
+   padding: 10px;
+    border-radius: 20px;
+    border:10px;
   background-position: center;
+  margin-top: 10px; 
 
 }
 
-.news{
 
-}
-
-<--/@media only screen and (max-width: 600px) {
-  div#call-to-action p {
-    display: none;
+@media only screen and (max-width: 1189px) {
+    #search 
+{display: none !important;}
   }
 div.front{
-    font-size: 10px;
-    margin: 0px;
+    font-size: 20px;
+    margin: 20px;
 }
 
-div h2{
-    font-size: 12px !important;
-}
 
 
 #caro p{
     font-size: 10px !important; 
+}
+
+@media only screen and (max-width: 575px) {
+  .front p {
+      font-size: 10px;
+      padding: 1px;
+      padding-bottom: -1px;
+     }
+}
+
+
+@media only screen and (max-width: 575px) {
+  .front h2 {
+      font-size: 15px;
+     }
+}
+
+@media only screen and (max-width: 575px) {
+  .col-sm-6 p {
+      font-size: 10px;
+      padding: 1px;
+      padding-bottom: -1px;
+     }
+}
+
+
+@media only screen and (max-width: 575px) {
+  .col-sm-6 h3 {
+      font-size: 15px;
+     }
+}
+
+@media only screen and (max-width: 575px) {
+  #list {
+      font-size: 10px;
+     }
 }
