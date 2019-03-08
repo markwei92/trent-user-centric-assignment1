@@ -1,0 +1,93 @@
+.bg-success{
+    background-color: rgb() !important;
+}
+
+.nav-link{
+    color: !important;
+    font-size: 20px;
+}
+
+h3{
+    padding-left: 20px !important;
+}
+
+#r1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+#r2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+#r3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+}
+
+.header{
+    text-align: justify;
+     padding:15px;
+}
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+  .card-body {background: red;}
+  .header {font-size: 15px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .card-body {background: green;
+       width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .card-body {background: blue;
+       width: 100%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card-body{background: orange;
+       width: 100%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card-body {background: pink;
+       width: 100%;
+       border: 10px;
+  }
+.card-img-top{
+
+}
+    
+}
+@media only screen and (max-width: 575px) {
+  .header {font-size: 12px;
+     
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .head {
+      font-size: 18px;
+     }
+}
+
+@media only screen and (max-width: 1000px) {
+  #search{display: none !important;
+     }
+}
