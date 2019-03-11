@@ -39,34 +39,34 @@ h3{
 
     /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575px) {
-  .card-body {background: red;}
+  .card-body {}
   .header {font-size: 15px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .card-body {background: green;
+  .card-body {
        width: 100%;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .card-body {background: blue;
+  .card-body {
        width: 100%;
   }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .card-body{background: orange;
+  .card-body{
        width: 100%;
   }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .card-body {background: pink;
+  .card-body {
        width: 100%;
        border: 10px;
   }
@@ -90,4 +90,26 @@ h3{
 @media only screen and (max-width: 1189px) {
   #search{display: none !important;
      }
+}
+
+#cs{
+    color: red;
+    font-weight: bold
+}
+
+body{
+    background-color: rgba(255, 255, 230);
+}
+
+.card-body{
+    background-color:rgba(255, 226, 122, 0.3);
+}
+
+h2{
+     font-family: 'Indie Flower', cursive;
+}
+
+#button{
+    background-color:rgba(255, 226, 122, 0);
+    border-color: rgba(255, 226, 122, 0)
 }

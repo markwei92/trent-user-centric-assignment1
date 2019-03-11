@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="strategic.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -17,7 +18,7 @@
     <body>
        <nav id="main" class="navbar navbar-expand-md bg-success navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" id="logo" href="#">
+  <a class="navbar-brand" id="logo" href="../home/home.html">
     <img src="../home/test.png" alt="Logo" style="width:150px; height: 60px;">
   </a>
  
@@ -28,27 +29,27 @@
   </button>
 
   <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="my-nav-bar">
+   <div class="collapse navbar-collapse" id="my-nav-bar">
     <ul class="navbar-nav">
      
           <li class="nav-item">
-        <a class="nav-link" href="#">Family Games</a>
+        <a class="nav-link" href="../family/family.html">Family Games</a>
         </li>
            <li class="nav-item">
-        <a class="nav-link" href="#">Role-Playing Games</a>
+        <a class="nav-link" href="../role-playing/roleplaying.html">Role-Playing Games</a>
         </li>
            <li class="nav-item">
-        <a class="nav-link" href="#">Strategic Games</a>
+        <a class="nav-link" href="strategic.html">Strategic Games</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Newsletter</a>
+        <a class="nav-link" href="../newsletter/newsletter.html">Newsletter</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="../contactus/contactus.html">Contact Us</a>
       </li> 
     </ul>
     
-  </div> 
+  </div>  
   <div id="search">
 <form class="form-inline" action="/action_page.php">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -58,14 +59,10 @@
 </nav>
 <br/>
 <div class="header">
-      <h2 class="head">Family Games</h2>
+      <h2 class="head">Strategic Games</h2>
       
-      <p>Welcome to the family category, here's what to expect, easy to learn rules that can be learnt in 5 minutes
-      and after that its nights of endless fun and laughter. This category is designed to showcase games that are suitable 
-      for family or friends who just want something casual and light without being too competitive, a common theme of family
-      games is the more open ended style of play that does not have a step  by step outcome but rather uses player creativity 
-      and imagination with a charm of luck to win the game, ultimately the main goal of the game in this category is not to win but to have fun. 
-      Check out the reviews below.</p>
+      <p>Welcome to the strategic category, this category is for those looking to use more brain juice or who gets a kick by outplaying or outsmarting your opponents, the strategic games are certainly the one you should be looking for. There are many games ranging from 30 minutes to hours, and in this particular category given the depth and level of decision making required in these types of games, expect longer wait times between turns and in an orderly turn based fashioned. 
+      However the rigidness of the game allows for alot more variation and replayability as compared to the other 2 categories aimed at something light and easy to play but inevitably falls short to what tabletop games can truly offer, an experience that can arouse heated discussions and always plenty to talk about, expansions are generally not necessary as the game itself is already very rich.</p>
       <p><b>Rating Legend: Learning Curve-LC, Strategic Depth-SD, Replayability-R</b></p>
       </div>
       
@@ -73,40 +70,43 @@
   <div class="row mb-5">
     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
        <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
+  <img class="card-img-top" src="chess.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">Dixit</h4>
-    <p class="card-text">No. of players: 2-6 players</p>
-    <p class="card-text">Game Type: Card Game</p>
+    <h4 class="card-title">Chinese Chess</h4>
+    <p class="card-text">No. of players: 2 players</p>
+    <p class="card-text">Game Type: Board Game</p>
     <p class="card-text">Duration: 30-60mins</p>
-    <p class="card-text">Rating: (LC: 4/5 | SD: 3/5 | R: 3/5)</p>
-   <p id ="r1" class="card-text">10</p>
+    <p class="card-text">Rating: (LC: 4/5 | SD: 4/5 | R: 4/5)</p>
+   <p id ="r2" class="card-text">12</p>
+   <a href="chess.html" id="button" class="btn btn-primary stretched-link"></a>
   </div>
 </div>
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
          <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
+  <img class="card-img-top" src="scythe.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">Codenames</h4>
-    <p class="card-text">No. of players: 4-12 players</p>
-    <p class="card-text">Game Type: Card Game</p>
-    <p class="card-text">Duration: 0-30mins</p>
-    <p class="card-text">Rating: (LC: 4/5 | SD: 4/5 | R: 5/5)</p>
-   <p id ="r2" class="card-text">13</p>
+    <h4 class="card-title">Scythe</h4>
+    <p id="cs" class="card-text">Review coming soon</p>
+    <p class="card-text">No. of players: 2-5 players</p>
+    <p class="card-text">Game Type: Board Game</p>
+    <p class="card-text">Duration: 60-120mins</p>
+    <p class="card-text">Rating: (LC: 2/5 | SD: 5/5 | R: 4/5)</p>
+   <p id ="r2" class="card-text">11</p>
   
   </div>
     </div>
   </div>
   <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
          <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
+  <img class="card-img-top" src="bat.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">Monopoly Deal</h4>
-   <p class="card-text">No. of players: 3-5 players</p>
-    <p class="card-text">Game Type: Card Game</p>
-    <p class="card-text">Duration: 0-30mins</p>
-    <p class="card-text">Rating: (LC: 3/5 | SD: 2/5 | R: 3/5)</p>
+    <h4 class="card-title">Batman (GCC)</h4>
+    <p id="cs" class="card-text">Review coming soon</p>
+   <p class="card-text">No. of players: 2-5 players</p>
+    <p class="card-text">Game Type: Board Game</p>
+    <p class="card-text">Duration: 30-120mins</p>
+    <p class="card-text">Rating: (LC: 2/5 | SD: 3/5 | R: 3/5)</p>
    <p id ="r1" class="card-text">8</p>
    
   </div>
@@ -114,74 +114,20 @@
   </div>
   <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
          <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
+  <img class="card-img-top" src="san.jpg" alt="Card image">
   <div class="card-body">
-    <h4 class="card-title">Bang!</h4>
-    <p class="card-text">No. of players: 3-8 players</p>
+    <h4 class="card-title">Santorini</h4>
+    <p id="cs" class="card-text">Review coming soon</p>
+    <p class="card-text">No. of players: 2 players</p>
     <p class="card-text">Game Type: Props Game</p>
     <p class="card-text">Duration: 0-30mins</p>
-    <p class="card-text">Rating: (LC: 3/5 | SD: 1/5 | R: 1/5)</p>
-   <p id ="r3" class="card-text">5</p>
+    <p class="card-text">Rating: (LC: 5/5 | SD: 2/5 | R: 2/5)</p>
+   <p id ="r1" class="card-text">9</p>
     
   </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-         <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Bang!</h4>
-    <p class="card-text">No. of players: 3-8 players</p>
-    <p class="card-text">Game Type: Props Game</p>
-    <p class="card-text">Duration: 0-30mins</p>
-    <p class="card-text">Rating: (LC: 3/5 | SD: 1/5 | R: 1/5)</p>
-   <p id ="r3" class="card-text">5</p>
-    
-  </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-         <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Bang!</h4>
-    <p class="card-text">No. of players: 3-8 players</p>
-    <p class="card-text">Game Type: Props Game</p>
-    <p class="card-text">Duration: 0-30mins</p>
-    <p class="card-text">Rating: (LC: 3/5 | SD: 1/5 | R: 1/5)</p>
-   <p id ="r3" class="card-text">5</p>
-    
-  </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-         <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Bang!</h4>
-    <p class="card-text">No. of players: 3-8 players</p>
-    <p class="card-text">Game Type: Props Game</p>
-    <p class="card-text">Duration: 0-30mins</p>
-    <p class="card-text">Rating: (LC: 3/5 | SD: 1/5 | R: 1/5)</p>
-   <p id ="r3" class="card-text">5</p>
-    
-  </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-         <div class="card">
-  <img class="card-img-top" src="b5.jpg" alt="Card image">
-  <div class="card-body">
-    <h4 class="card-title">Bang!</h4>
-    <p class="card-text">No. of players: 3-8 players</p>
-    <p class="card-text">Game Type: Props Game</p>
-    <p class="card-text">Duration: 0-30mins</p>
-    <p class="card-text">Rating: (LC: 3/5 | SD: 1/5 | R: 1/5)</p>
-   <p id ="r3" class="card-text">5</p>
-    
-  </div>
-    </div>
-  </div>
+ 
 </div>
          
         

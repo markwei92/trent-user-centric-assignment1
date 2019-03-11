@@ -35,6 +35,7 @@ h3{
 .header{
     text-align: justify;
      padding:15px;
+     
 }
 
     /* Extra small devices (phones, 600px and down) */
@@ -98,3 +99,19 @@ h3{
 }
 
 
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    background-color: rgba(255, 255, 230);
+}
+
+.card-body{
+    background-color:rgba(255, 226, 122, 0.3);
+}
+
+#button{
+    background-color:rgba(255, 226, 122, 0);
+    border-color: rgba(255, 226, 122, 0)
+}

@@ -46,7 +46,8 @@ body{
 }
 
 h2{
-    text-align: center;
+    padding: 15px;
+    font-family: 'Indie Flower', cursive;
 }
 
 p{
@@ -78,15 +79,54 @@ p{
   }
 div.front{
     font-size: 10px;
-    margin: 0px;
+    margin: 40px;
+    margin-bottom: 50px;
 }
 
-div h2{
-    font-size: 12px !important;
-}
 
 
 #caro p{
     font-size: 10px !important; 
 }
 
+
+@media only screen and (max-width: 575px) {
+  #para {font-size: 12px;}
+  #title {font-size: 15px !important;}
+  .header {font-size: 15px;}
+}
+
+
+
+@media only screen and (max-width: 1189px) {
+  #search{display: none !important;
+     }
+}
+
+.media-body{
+    text-align: left
+    
+}
+
+#note{
+    color: red;
+    padding: 15px;
+}
+
+.front{
+ 
+    text-align:center;
+    background-color:rgba(255, 226, 122, 0.3);
+   padding: 10px;
+    border-radius: 25px;
+  background-position: center;
+}
+
+#tab{
+    background-color: white;
+    background-color:rgba(255, 226, 122, 0.3);
+}
+
+body{
+    background-color: rgba(255, 255, 230);
+}
