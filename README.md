@@ -28,7 +28,7 @@ that it brings you back to the homepage.
 
 #Deployment
 Deployed on github all files
-To run code just extract all the files onto a coding text editor and run the index.html file. 
+To run code just extract all the files onto a coding text editor and run the index.html file or use the repo link provided-> https://markwei92.github.io/trent-user-centric-assignment1/
 
 #Credits
 
